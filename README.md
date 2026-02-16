@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * HTML Introduction : HTML (HyperText Markup Language) is the standard markup language used to create web pages. It describes the structure of a webpage using elements,
 and these elements tell the browser how to display content such as headings, paragraphs, and links.
 
@@ -102,3 +103,6 @@ and this information is not shown on the page. The `<title>` tag inside `<head>`
 
 
 
+=======
+# VRIFB2
+>>>>>>> 8d131d212b7be09fe69ce11047466969e3dd4914
