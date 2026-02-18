@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechHub - Connect with Developers</title>
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header>
+    <nav>
+      <h1>TechHub</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home">
+    <h2>Welcome to TechHub</h2>
+    <p>Connect, Learn, and Grow with Developer Community</p>
+    <p>A platform for developers to share knowledge, collaborate on projects, and build amazing things together.</p>
+    <a href="#signup">Get Started</a>
+    <a href="#login">Sign In</a>
+  </section>
+
+  
+
+  <!-- Sign Up Form Section -->
+  <section id="signup">
+    <h2>Create Your Account</h2>
+    <form method="POST" action="/api/signup">
+      <fieldset>
+        <legend>Sign Up Form</legend>
+        
+        <label for="signup_fullname">Full Name:</label>
+        <input type="text" id="signup_fullname" name="fullname" placeholder="John Doe" required>
+        <br><br>
+        
+        <label for="signup_email">Email Address:</label>
+        <input type="email" id="signup_email" name="email" placeholder="you@example.com" required>
+        <br><br>
+        
+        <label for="signup_username">Username:</label>
+        <input type="text" id="signup_username" name="username" placeholder="johndoe" required>
+        <br><br>
+        
+        <label for="signup_password">Password:</label>
+        <input type="password" id="signup_password" name="password" placeholder="At least 8 characters" required>
+        <br><br>
+        
+        <label for="signup_confirm_password">Confirm Password:</label>
+        <input type="password" id="signup_confirm_password" name="confirm_password" placeholder="Re-enter password" required>
+    </form>
+    <p>Already have an account? <a href="#login">Sign In here</a></p>
+  </section>
+
+  <!-- Log In Form Section -->
+  <section id="login">
+    <h2>Sign In to Your Account</h2>
+    <form method="POST" action="/api/login">
+      <fieldset>
+        <legend>Login Form</legend>
+        
+        <label for="login_email">Email Address or Username:</label>
+        <input type="text" id="login_email" name="email_username" placeholder="you@example.com or username" required>
+        <br><br>
+        
+        <label for="login_password">Password:</label>
+        <input type="password" id="login_password" name="password" placeholder="Enter your password" required>
+        <br><br>
+        
+        <input type="checkbox" id="login_remember" name="remember">
+        <label for="login_remember">Remember me</label>
+        <br><br>
+        
+        <button type="submit">Sign In</button>
+        <button type="reset">Clear</button>
+      </fieldset>
+    </form>
+    <p><a href="#">Forgot your password?</a></p>
+    <p>Don't have an account? <a href="#signup">Sign Up here</a></p>
+  </section>
+</body>
+ </html>
