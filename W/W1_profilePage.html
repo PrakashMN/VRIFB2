@@ -4,128 +4,76 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Prakash Nagaral - Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 700px;
+      margin: 60px auto;
+      text-align: center;
+      color: #222;
+    }
+    h1 { font-size: 2.4rem; margin-bottom: 4px; }
+    .tagline { color: #555; margin-bottom: 20px; }
+    .info { margin: 6px 0; font-size: 0.95rem; }
+    .big-links {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      margin: 40px 0;
+    }
+    .big-links a {
+      display: inline-block;
+      padding: 20px 48px;
+      font-size: 1.4rem;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: opacity 0.2s;
+    }
+    .big-links a:hover { opacity: 0.85; }
+    .btn-portfolio { background: #2563eb; color: #fff; }
+    .btn-founder  { background: #16a34a; color: #fff; }
+    footer { margin-top: 40px; color: #888; font-size: 0.85rem; }
+
+    @media (max-width: 600px) {
+      body { margin: 30px 16px; }
+      h1 { font-size: 1.7rem; }
+      .big-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+      }
+      .big-links a {
+        width: 100%;
+        max-width: 320px;
+        padding: 16px 24px;
+        font-size: 1.1rem;
+        box-sizing: border-box;
+      }
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Prakash Nagaral</h1>
-    <p>Full-Stack Developer | AI Enthusiast | Competitive Programmer</p>
-    <hr>
-  </header>
 
-  <section>
-    <h2>About Me</h2>
-    <p><strong>Email:</strong> nagaralprakash0@example.com</p>
-    <p><strong>Location:</strong> Bengaluru, Karnataka, India</p>
-    <p><strong>Phone:</strong> +91 9008081050</p>
-    <p><strong>Status:</strong> Final Year Engineering Student (VTU) | Open to Internships</p>
-  </section>
+  <h1>Prakash Nagaral</h1>
+  <p class="tagline">Full-Stack Developer &nbsp;|&nbsp; Competitive Programmer &nbsp;|&nbsp; Founder of themonsterlabs</p>
+
+  <p class="info"><strong>Location:</strong> Bengaluru, Karnataka, India</p>
+  <p class="info"><strong>Status:</strong> Final Year B.E. (VTU) &nbsp;|&nbsp; Open to Internships</p>
+  <p class="info"><strong>Email:</strong> nagaralprakash0@example.com</p>
 
   <hr>
 
-  <section>
-    <h2>About</h2>
-    <p>A passionate full-stack developer and AI enthusiast pursuing B.E. in Computer Science from VTU. Currently in my 7th semester with strong expertise in MERN stack, Data Structures, and Algorithms. I enjoy building real-world projects, competitive programming, and exploring emerging technologies like AI/GenAI.</p>
-  </section>
+  <p>Passionate MERN-stack developer with hands-on experience in DSA, RESTful APIs, and AI/GenAI. Former Full-Stack Developer at <strong>CYBERRANT</strong>.</p>
 
-  <hr>
-
-  <section>
-    <h2>Technical Skills</h2>
-    
-    <h3>Languages</h3>
-    <ul>
-      <li>JavaScript (ES6+)</li>
-      <li>Java (OOP, Collections)</li>
-      <li>Python</li>
-      <li>SQL</li>
-    </ul>
-    
-    <h3>Frontend</h3>
-    <ul>
-      <li>HTML5, CSS3</li>
-      <li>React.js</li>
-      <li>Responsive Design</li>
-    </ul>
-    
-    <h3>Backend & Databases</h3>
-    <ul>
-      <li>Node.js & Express</li>
-      <li>MongoDB</li>
-      <li>RESTful APIs</li>
-    </ul>
-    
-    <h3>Other Skills</h3>
-    <ul>
-      <li>Data Structures & Algorithms</li>
-      <li>Git & GitHub</li>
-      <li>Problem Solving</li>
-      <li>System Design Basics</li>
-    </ul>
-  </section>
-
-  <hr>
-
-  <section>
-    <h2>Projects</h2>
-    
-    <h3>Agritech Web Platform</h3>
-    <p>A full-stack web application connecting farmers with buyers. Farmers can list their produce, get real-time market prices, and connect directly with buyers. Built using MERN stack with real-time notifications.</p>
-    
-    <h3>Personal Portfolio Website</h3>
-    <p>A responsive portfolio showcasing projects, skills, and experience. Implemented with modern CSS animations and smooth scrolling for better user experience.</p>
-    
-    <h3>Competitive Programming Solutions</h3>
-    <p>Regular submissions on LeetCode and Codility with focus on DSA problems. Proficient in solving medium to hard level problems using optimal approaches.</p>
-  </section>
-
-  <hr>
-
-  <section>
-    <h2>Education</h2>
-    
-    <h3>Bachelor of Engineering (B.E.) - Computer Science</h3>
-    <p><strong>Visvesvaraya Technological University (VTU), Karnataka</strong></p>
-    <p>Currently in 7th Semester | CGPA: 8.2+</p>
-    
-    <h3>Relevant Coursework</h3>
-    <ul>
-      <li>Data Structures & Algorithms</li>
-      <li>Database Management Systems</li>
-      <li>Web Technologies</li>
-      <li>Software Engineering</li>
-      <li>Artificial Intelligence</li>
-    </ul>
-  </section>
-
-  <hr>
-
-  <section>
-    <h2>Achievements</h2>
-    <ul>
-      <li>Worked as Full-Stack Developer at CYBERRANT</li>
-      <li>Active on GitHub with multiple open-source contributions</li>
-      <li>Consistent problem solver on competitive programming platforms</li>
-      <li>Strong foundation in DSA with focus on optimization</li>
-    </ul>
-  </section>
-
-  <hr>
-
-  <section>
-    <h2>Connect With Me</h2>
-    <ul>
-      <li><a href="https://github.com/PrakashMN" target="_blank">GitHub - View My Repositories</a></li>
-      <li><a href="https://www.linkedin.com/in/prakashnagaral/" target="_blank">LinkedIn - Professional Profile</a></li>
-      <li><a href="https://leetcode.com/u/PRAKASH_M_N/" target="_blank">LeetCode - Coding Solutions</a></li>
-      <li><a href="mailto:nagaralprakash0@example.com">Email - Get in Touch</a></li>
-    </ul>
-  </section>
-
-  <hr>
+  <div class="big-links">
+    <a class="btn-portfolio" href="https://prakashnagaral.me/" target="_blank">Portfolio</a>
+    <a class="btn-founder"  href="https://www.themonsterlabs.in/" target="_blank">Book a site</a>
+  </div>
 
   <footer>
     <p>&copy; 2026 Prakash Nagaral. All rights reserved.</p>
-    <p>Last Updated: February 2026</p>
   </footer>
+
 </body>
 </html>
